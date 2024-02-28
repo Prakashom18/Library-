@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fourth_sem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        >
+
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="4th Semester Books"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText"
+            android:textSize="30sp"
+            android:textColorHint="@color/black">
+        </TextView>
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:hint="Theory of Computation"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText">
+
+        </Button>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:hint="Computer Networks"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText">
+
+        </Button>
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:hint="Operating System"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText">
+
+        </Button>
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:hint="Artificial Intelligence"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText">
+
+        </Button>
+        <Button
+            android:padding="10dp"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:hint="DBMS"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText">
+
+        </Button>
+    </LinearLayout>
+</RelativeLayout>
